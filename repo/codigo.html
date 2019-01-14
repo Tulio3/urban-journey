@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Invie</title>
+    <style media="screen">
+    body {
+      margin: 0;
+      border: 10px solid #385567;
+    }
+    img {
+      max-width: 100%;
+      vertical-align: top;
+      /*display: none;*/
+    }
+    img#responsive {
+      display: none;
+    }
+    @media screen and (max-width: 768px) {
+      img#responsive {
+        display: block;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <img src="invieResponsive.png" alt="" id="responsive">
+    <img src="invieVerde.jpg">
+  </body>
+</html>
